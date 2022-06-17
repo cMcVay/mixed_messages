@@ -33,3 +33,4 @@ for (let weatherType in weather) {
 
 //console log results
 console.log(weatherReport.join(''));
+document.getElementById("weather-report").innerHTML = "<h2>"+weatherReport.join('')+ "</h2>"
